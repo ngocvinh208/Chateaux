@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>0E705F6D-095D-4AB8-B262-C850CD5382B6</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="shopping-cart" stroke="#444444" stroke-width="2">
+            <g>
+                <ellipse id="Oval" fill="#444444" cx="7.27272727" cy="18.0952381" rx="1" ry="1"></ellipse>
+                <ellipse id="Oval" fill="#444444" cx="17.2727273" cy="18.0952381" rx="1" ry="1"></ellipse>
+                <path d="M0,0 L3.63636364,0 L6.07272727,12.1147619 C6.24430633,12.9744952 7.01034904,13.5882231 7.89090909,13.5714286 L16.7272727,13.5714286 C17.6078328,13.5882231 18.3738755,12.9744952 18.5454545,12.1147619 L20,4.52380952 L11,4.52380952" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

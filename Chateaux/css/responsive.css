@@ -1,0 +1,398 @@
+/* Begin resposive */
+@media screen and (max-width: 1100px){
+	#header .search-form .it-search{
+		width: auto;
+	}
+	#header .main-header{
+		padding-left: 120px;
+	}
+	.content-catalogue .sidebar-widget ul li {
+	    padding-right: 3px;
+	}
+	html,body {
+		overflow-x:hidden;
+	}
+	.content-sidebar.fixed{
+		width: 236px;
+	}
+}
+@media screen and (max-width: 991px){
+	#header .search-form .it-search{
+		font-size: 18px;
+		font-weight: 700;
+	}
+	.part-pc{
+		display: none;
+	}
+	.part-mb,.toggle-menu{
+		display: block;
+	}
+	#header,#header .container{
+		padding: 0;
+	}
+	#header .shopcart-dropdown{
+		right: 25px;
+		top: 50%;
+		transform: translateY(-50%);
+    	-ms-transform: translateY(-50%);
+    	-webkit-transform: translateY(-50%);
+	}
+	#header .header-left{
+		display: none;
+	}
+	#header .main-header{
+	    text-align: center;
+	    padding: 0;
+	    display: block;
+	    padding: 24px 0 19px;
+	}
+	#header .logo-header{
+		position: static;
+	}
+	#header .header-right{
+		display: none;
+		width: 100%;
+		position: absolute;
+		top: 100%;
+		z-index: 999;
+		background: #fff;
+		text-align: left;
+	}
+	.transform-menu{
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		background: transparent;
+		z-index: 998;
+	}
+	.transform-menu.active{
+		display: block;
+	}
+	#header .search-form{
+		margin-right: 0;
+		padding: 20px 25px;
+		background: #f2f2f2;
+		position: relative;
+	}
+	#header .search-form .it-search {
+	    width: 85%;
+	    background: transparent;
+	    margin-left: 40px;
+	}
+	#header .search-form #searchsubmit {
+	    position: absolute;
+	}
+	#header .menu-main {
+	    display: block;
+	    padding: 30px 25px;
+	}
+	#header .menu-main ul li{
+		display: block;
+		margin-bottom: 40px;
+	}
+	#header .nous-appelermb{
+		font-size: 14px;
+	  	font-weight: 900;
+	  	line-height: 1.8;
+	  	color: #fff;
+	  	background: #004685;
+	  	display: block;
+	  	text-align: center;
+	  	height: 77px;
+	  	line-height: 77px;
+		text-transform: uppercase;
+	}
+	#header .menu-main ul li a {
+	    font-size: 18px;
+	    font-weight: 700;
+	}
+	#header .select-language{
+		margin-left: 10px;
+	}
+	#header .select-language .it-select{
+		font-size: 16px;
+		height: 25px;
+	}
+	#footer .footer-bottom .footer-item{
+		margin-bottom: 70px;
+	}
+	.pdetail-product,.sidebar-favourite,
+	.content-access .function-item:last-of-type{
+		padding: 0 15px;
+	}
+	.sidebar-favourite .our-favorites {
+	    padding: 30px 15px;
+	}
+	.tab-main-product .nav-tabs .nav-item .nav-link{
+		font-size: 12px;
+		padding: 5px 4px;
+	}
+	.content-parent h4{
+		font-size: 16px;
+	}
+	#footer .section-brand{
+		padding: 20px 0;
+	}
+	.content-catalogue .sidebar-widget ul li{
+		display: block;
+		margin-bottom: 10px;
+	}
+	.content-works .list-guide-works ul li a{
+		font-size: 16px;
+	}
+	.the-header{
+		height: 79px;
+	}
+	.section-nopackages .infor-packages .img-dragon{
+		left: 0;
+	}
+	.content-catalogue .sidebar-widget,.content-catalogue .list-term-product{
+		-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	.content-catalogue .sidebar-widget{
+		margin-bottom: 20px;
+	}
+	.content-catalogue .sidebar-widget ul li{
+		display: inline-block;
+		margin-right: 10px;
+	}
+	.content-tab-link img{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 768px){
+	.content-contact .information-contact .contact-left {
+	    width: 100%;
+	    position: static;
+	    margin-bottom: 20px;
+	}
+	.information-contact .contact-main{
+		margin-left: 0;
+	}
+	.content-contact .information-contact .contact-left img{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 767px){
+	.gallery-packages .slick-prev, .gallery-packages .slick-next{
+		top: 132px;
+	}
+	.section-nopackages .infor-packages .inner-hpackages .text-left{
+		text-align: center !important;
+	}
+	.content-works .list-guide-works{
+		position: absolute;
+		top: 0;
+	}
+	.works-dropdown{
+		position: absolute;
+		right: 25px;
+	}
+	.works-dropdown i{
+		font-size: 18px;
+	}
+	.content-works .list-guide-works ul{
+	 	display: none;
+	 	background: #f2f2f2;
+	    z-index: 9;
+	    position: relative;
+	    padding: 20px;
+	    margin-top: 20px;
+	 }
+	 .content-works .list-guide-works ul ul{
+	 	margin-top: 0;
+	 }
+	.content-works .detail-guide-works,.content-works .list-guide-works{
+		-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	.pdetail-product{
+		margin-top: 20px;
+	}
+	.tab-main-product{
+		margin-bottom: 20px;
+	}
+	#footer .footer-bottom .container,.tab-main-product{
+	    padding: 0 15px;
+	}
+	#footer .section-tourisme .album-tourime a{
+		display: block;
+		margin-bottom: 20px;
+	}
+	.section-nopackages .infor-packages{
+		margin-bottom: 30px;
+	}
+	.price-detail .quantity{
+		float: right;
+		clear: right;
+	}
+	.content-best-product .infor-best-product .infor-intro h2{
+		font-size: 35px;
+	}
+	.content-best-product .infor-best-product .infor-intro{
+		padding: 53px 20px 46px;
+		right: 20px;
+	}
+	.section-solution .list-solution ul li {
+	    width: calc(100% / 3);
+	}
+	.content-parent h4{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 575px){
+	.content-parent .function-item .map-access img{
+		width: 100%;
+	}
+	.content-parent .function-item{
+		margin-bottom: 30px;
+	}
+	.content-parent .function-item:last-of-type{
+		margin-bottom: 0;
+	}
+	.content-single-product .back-catalogue{
+		display: none;
+	}
+	.content-description{
+		margin-bottom: 30px;
+	}
+	.content-works .detail-guide-works{
+		padding-left: 15px;
+	}
+	.product-main-bottom .product-review{
+		padding: 30px 15px;
+	}
+	.detail-guide-works .infor-detail .title-works{
+		font-size: 24px;
+	}
+	#footer .section-tourisme .section-title{
+		font-size: 23px;
+	}
+	.content-best-product .infor-best-product .infor-intro{
+		margin-top: 20px;
+		position: static;
+    	transform: translate(0);
+    	max-width: 100%;
+	}
+	.section-solution .list-solution ul li{
+		width: 100%;
+	}
+	.section-solution .list-solution ul li .solu-item{
+		border-right: none;
+	}
+	.banner-home .banner-item .inner-banner{
+		font-size: 22px;
+		line-height: 30px;
+	}
+	.banner-home .banner-item .inner-banner br{
+		display: none;
+	}
+	#payment .content-payment{
+		width: 100%;
+	}
+	#productCart .content-popup{
+		width: 100%;
+	}
+	.content-popup .price-detail .price-item .quantity{
+		float: none;
+	}
+	.home-pager{
+		display: none;
+	}
+	.gallery-product .bx-wrapper .bx-pager{
+		bottom: 12px;
+	}
+	.gallery-product .bx-wrapper .bx-pager.bx-default-pager a{
+		margin: 0 10px;
+		background: #fff;
+		border: 1px solid transparent;
+	}
+	.gallery-product .bx-wrapper .bx-pager.bx-default-pager a:hover, 
+	.gallery-product .bx-wrapper .bx-pager.bx-default-pager a.active{
+		background: transparent;
+		border: 1px solid #fff;
+	}
+	.content-parent .function-item{
+		width: 100%;
+	}
+	.content-access .function-item:last-of-type{
+		padding: 0;
+	}
+	.tab-main-product .nav-tabs{
+		display: none;
+	}
+	.content-informations .function-item:last-of-type ul li{
+		padding-left: 0;
+	}
+	.product-primary .tab-pane {
+    	display: block !important;
+    	opacity: 1;
+  	}
+  	.tab-main-product .collapse{
+  		display: none;
+  	}
+  	.tab-main-product .collapse.show{
+  		display: block;
+  	}
+	.nav-collapse{
+		display: block;
+		position: relative;
+		text-align: center;
+		padding-bottom: 15px;
+		margin-bottom: 30px;
+		border-bottom: solid 3px var(--very-light-pink);
+	}
+	.nav-collapse.current{
+		color: var(--darkish-blue);
+		border-bottom: solid 3px var(--darkish-blue);
+	}
+	.number-price {
+		font-size: 16px;
+		font-weight: 900;
+		position: absolute;
+		right: 12px;
+		bottom: 23px;
+	}
+	.content-cart-detail .cart-detail-item .price-detail{
+		padding-right: 25px;
+	}
+	#footer .social-profile .social-icons{
+		text-align: center;
+	}
+	.content-description .function-item:first-of-type{
+		padding-right: 0;
+	}
+	.sidebar-favourite{
+		padding: 0;
+	}
+	.product-main-bottom .container{
+		padding: 0;
+	}
+	.slider-packages .tourist-item{
+		padding: 0 5px;
+	}
+	.section-nopackages .gallery-packages{
+		padding: 0;
+	}
+	#multimap{
+		height: 300px;
+	}
+}
+@media screen and (max-width: 361px){
+	.banner-home .banner-item .inner-banner {
+	    font-size: 22px;
+	    line-height: 28px;
+	}	
+	.content-popup .price-detail .price-item p{
+		width: 100%;
+		margin-bottom: 5px;
+	}		.slider-packages .tourist-item .infor-tourist h3 a{		font-size: 14px;	}		.slider-packages .tourist-item .infor-tourist {		padding: 24px 2px 28px;	}
+}@media screen and (max-width: 320px){	.content-payment .text-payment{		letter-spacing: 1px;	}}
+/* End resposive */
